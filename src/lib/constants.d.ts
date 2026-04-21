@@ -1,0 +1,10 @@
+import type { CreativeFormState, CreativeMode, RewriteOption } from "./types";
+export declare const MAX_TEXT_INPUT = 4000;
+export declare const MAX_ARTICLE_TEXT = 20000;
+export declare const MIN_ARTICLE_TEXT = 280;
+export declare const MAX_ARTICLE_COUNT = 5;
+export declare const MODE_LABELS: Record<CreativeMode, string>;
+export declare const REWRITE_LABELS: Record<RewriteOption, string>;
+export declare const DEFAULT_FORM_STATE: CreativeFormState;
+export declare const ACCEPTED_UPLOAD_TYPES: string[];
+export declare const ACCEPTED_UPLOAD_EXTENSIONS: string[];
